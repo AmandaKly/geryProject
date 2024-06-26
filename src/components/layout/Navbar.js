@@ -12,8 +12,8 @@ function Navbar() {
         </Link>
         <ul className={styles.list}>
           <li className={styles.item}><Link to='/'> Início </Link></li>
-          <li className={styles.item}><Link to='/projetos'> Projeto </Link></li>
-          <li className={styles.item}><Link to='/empresa'> Company </Link></li>
+          <li className={styles.item}><Link to='/projetos'> Projetos </Link></li>
+          <li className={styles.item}><Link to='/empresa'> Empresa </Link></li>
           {/* <li className={styles.item}><Link to='/newproject'> NewProject </Link></li> */}
           <li className={styles.item}><Link to='/contato'> Contato </Link></li>
         </ul>
